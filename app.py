@@ -15,4 +15,4 @@ def predict():
     return jsonify(message)
 
 if __name__ == "__main__":
-    app.run(port=8000)  # Ensure you specify the port here
+    app.run()  # Ensure you specify the port here
