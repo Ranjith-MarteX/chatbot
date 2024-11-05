@@ -287,7 +287,7 @@ body {
         this.messages.push(msg1);
 
         // Change the URL to your Flask app's endpoint
-        fetch('http://127.0.0.1:8000/predict', {
+        fetch('http://chatbot-dbe.onrender.com/predict', {
             method: 'POST',
             body: JSON.stringify({ message: text1 }),
             mode: 'cors',
